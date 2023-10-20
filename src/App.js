@@ -6,6 +6,8 @@ import ClassState from "./components2/Class/ClassState";
 import Parent from "./components2/Functional/Parent";
 import GetInputBoxValue from "./components2/Functional/GetInputBoxValue";
 import UseStatewithObject from "./components2/Hooks/UseStateHook/UseStatewithObject";
+import UseStateWithArray from "./components2/Hooks/UseStateHook/UseStateWithArray";
+import UseStateWithArray2 from "./components2/Hooks/UseStateHook/UseStateWithArray2";
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
     {/* < ClassState /> */}
     {/* <Parent /> */}
     {/* <GetInputBoxValue /> */}
-    <UseStatewithObject />
+    {/* <UseStatewithObject /> */}
+    {/* <UseStateWithArray /> */}
+    <UseStateWithArray2 />
     </div>
   );
 }
