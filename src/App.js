@@ -8,6 +8,8 @@ import GetInputBoxValue from "./components2/Functional/GetInputBoxValue";
 import UseStatewithObject from "./components2/Hooks/UseStateHook/UseStatewithObject";
 import UseStateWithArray from "./components2/Hooks/UseStateHook/UseStateWithArray";
 import UseStateWithArray2 from "./components2/Hooks/UseStateHook/UseStateWithArray2";
+import UseEffect from "./components2/Hooks/UseEffectHook/UseEffect";
+import ParentLiftingState from "./components2/LiftingStateUP/ParentLiftingState";
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
     {/* <GetInputBoxValue /> */}
     {/* <UseStatewithObject /> */}
     {/* <UseStateWithArray /> */}
-    <UseStateWithArray2 />
+    {/* <UseStateWithArray2 /> */}
+    {/* <UseEffect /> */}
+    <ParentLiftingState />
     </div>
   );
 }
