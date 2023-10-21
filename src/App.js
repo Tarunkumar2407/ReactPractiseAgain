@@ -10,6 +10,7 @@ import UseStateWithArray from "./components2/Hooks/UseStateHook/UseStateWithArra
 import UseStateWithArray2 from "./components2/Hooks/UseStateHook/UseStateWithArray2";
 import UseEffect from "./components2/Hooks/UseEffectHook/UseEffect";
 import ParentLiftingState from "./components2/LiftingStateUP/ParentLiftingState";
+import ParentProps from "./components2/PropsDrilling/ParentProps";
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
     {/* <UseStateWithArray /> */}
     {/* <UseStateWithArray2 /> */}
     {/* <UseEffect /> */}
-    <ParentLiftingState />
+    {/* <ParentLiftingState /> */}
+    <ParentProps />
     </div>
   );
 }
