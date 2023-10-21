@@ -12,6 +12,7 @@ import UseEffect from "./components2/Hooks/UseEffectHook/UseEffect";
 import ParentLiftingState from "./components2/LiftingStateUP/ParentLiftingState";
 import ParentProps from "./components2/PropsDrilling/ParentProps";
 import UseMemoHook from "./components2/Hooks/UseMemoHook";
+import ParentCallback from "./components2/UseCallBackHook.js/ParentCallback";
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
     {/* <UseEffect /> */}
     {/* <ParentLiftingState /> */}
     {/* <ParentProps /> */}
-    <UseMemoHook />
+    {/* <UseMemoHook /> */}
+    <ParentCallback />
     </div>
   );
 }
