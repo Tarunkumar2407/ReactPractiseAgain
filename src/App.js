@@ -11,6 +11,7 @@ import UseStateWithArray2 from "./components2/Hooks/UseStateHook/UseStateWithArr
 import UseEffect from "./components2/Hooks/UseEffectHook/UseEffect";
 import ParentLiftingState from "./components2/LiftingStateUP/ParentLiftingState";
 import ParentProps from "./components2/PropsDrilling/ParentProps";
+import UseMemoHook from "./components2/Hooks/UseMemoHook";
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
     {/* <UseStateWithArray2 /> */}
     {/* <UseEffect /> */}
     {/* <ParentLiftingState /> */}
-    <ParentProps />
+    {/* <ParentProps /> */}
+    <UseMemoHook />
     </div>
   );
 }
